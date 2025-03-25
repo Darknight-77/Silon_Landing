@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: rgb(240, 89, 89);
+    --primary2: rgb(234, 170, 170);
+    --black: black;
+}
+body{
+    width: 100%;
+    background-color: white;
+    font-size: 14px;
+}
+.navbar-nav a:hover{
+    color: var(--primary2);
+}
+.hero{
+    background: linear-gradient(
+        50deg,
+        var(--primary2)24% 70%,
+        rgb(243, 109, 109)
+    );
+}
+.toptext h6{
+    color: gray;
+    letter-spacing: 4px;
+}
+.toptext{
+    text-align: center;
+}
+.toptext h1{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.toptext a:hover{
+    background-color: white;
+    color: var(--primary);
+    border: none;
+}
+.productname{
+    margin-top: 15px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.productname a{
+    color: gray;
+    text-decoration: none;
+}
+.rating{
+    margin: 0px;
+}
+.rating a{
+    color: var(--primary);
+    margin: 0px;
+    text-decoration: none;
+}
+.productprice{
+    font-weight: bold;
+}
+footer a:hover{
+    color: var(--primary);
+}
+.socialhove:hover{
+    background-color: var(--primary);
+    color: white;
+}
+.socialhove{
+    background: white;
+    font-size: 1.2rem;
+    /*padding: 5px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
